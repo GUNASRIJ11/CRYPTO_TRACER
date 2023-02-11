@@ -14,7 +14,7 @@
             </div>
         </div>
         <div class="col-md-8">
-            <canvas style="width: 300px;" baseChart [data]="lineChartData" [options]="lineChartOptions" [type]="'line'"></canvas>
+            <canvas style="width: 300px; color: blue;" baseChart [data]="lineChartData" [options]="lineChartOptions" [type]="'line'"></canvas>
            
             <div class="d-flex justify-content-around">
                 <button (click)="getGraphData(1)" class="btn btn-custom">24 hours</button>
@@ -22,7 +22,12 @@
                 <button (click)="getGraphData(90)" class="btn btn-custom">90 days</button>
                 <button (click)="getGraphData(365)" class="btn btn-custom">1 year</button>
             </div>
+            <div class="d-flex justify-content-around" style="padding-top: 100px">
+               
+            </div>
+            
         </div>
+       
     </div>
 </div>
 

@@ -1,12 +1,12 @@
 
-  <mat-toolbar>
-    <span>CRYPTO_CHECKER</span>
+  <mat-toolbar style="background-color: aqua;" c>
+    <span style="color: black;">CRYPTO CHECKER</span>
     <span class="example-spacer"></span>
     <mat-form-field appearance="outline">
       
-      <mat-select (valueChange)="sendCurrency($event)" class="text-sm" [(ngModel)]="selectedCurrency">
-        <mat-option selected value="INR">INR</mat-option>
-        <mat-option value="USD"> USD</mat-option>
+      <mat-select (valueChange)="sendCurrency($event)" class="text-sm"  [(ngModel)]="selectedCurrency">
+        <mat-option style="color: black;" selected value="INR" >INR</mat-option>
+        <mat-option  value="USD" > USD</mat-option>
       </mat-select>
     </mat-form-field>
   </mat-toolbar>

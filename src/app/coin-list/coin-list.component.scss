@@ -39,10 +39,10 @@
 .card {
     border: 0;
     background: transparent;
-    color: #fff;
+    color:#fff;
     padding: 10px;
     margin: 40px;
-    width: 100px;
+    width: 200px;
     height: 200px;
     img {
         width: 70px;
@@ -69,7 +69,7 @@ table {
 
 th {
     width: 25%;
-    background-color:aqua;
+   color: black;
     
 }
 td {
@@ -78,7 +78,7 @@ td {
 }
 
 :host ::ng-deep .mat-sort-header-content {
-    color: #fff;
+    color:black;
 }
 
 :host ::ng-deep .mat-paginator-outer-container {
